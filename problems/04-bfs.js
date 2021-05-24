@@ -2,8 +2,10 @@
 // binary tree, traverses it in depth-first-search
 // order, and returns an array containing the values
 // in the order you visited them.
-function bfs(root){
-    // Your code here
+function bfs(root) {
+    if (!root) return []
+
+    
 }
 
 module.exports = { bfs };
