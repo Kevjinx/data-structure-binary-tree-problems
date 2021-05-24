@@ -12,31 +12,9 @@ class TreeNode {
     this.right = null
   }
 
-  // preOrderArray(root) {
-  //   if (!root.left && !root.right) {
-  //     return root
-  //   } else {
-  //     if (root.val <= this.left.val) {
-  //       return this.preOrderArray(root.left)
-  //     } else {
-  //       return this.preOrderArray(root.right)
-  //     }
-  //   }
-  // }
 
-
-//if have left,
-//  go left
-//else if have right
-// go right
-//else return root
-
-
-  postOrderArray(node) {
-    if (!node) return []
-    if (!node.left && !node.right) return node;
-    if (node.left) return preOrderArray(node.left)
-    if (node.right) return preOrderArray(node.right)
+  preOrderArray(node) {
+ 
   }
 
 
