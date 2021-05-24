@@ -12,7 +12,7 @@ function constructBalancedTree(){
   let e = new TreeNode('e');
   let f = new TreeNode('f');
   let g = new TreeNode('g');
-  
+
   a.left = b;
   a.right = c;
   b.left = d;
