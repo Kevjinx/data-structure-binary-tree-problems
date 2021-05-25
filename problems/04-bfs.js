@@ -8,6 +8,7 @@ function bfs(root) {
   const queue = [root];
   const finalValueArr = []
 
+
   while (queue.length) {
 
     const currentNode = queue.pop();
@@ -20,5 +21,7 @@ function bfs(root) {
   }
   return finalValueArr;
 }
+
+
 
 module.exports = { bfs };
