@@ -9,7 +9,6 @@ function preOrderArray(root) {
     return [root.val, ...left, ...right]
 
 }
-
 // Implement a function that takes the root of a Binary Tree
 // and returns an array containing the values from an in-order
 // traversal.
